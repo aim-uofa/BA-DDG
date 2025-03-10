@@ -1,0 +1,31 @@
+{
+  "num_cvfolds": 3,
+  "patch_size": 128,
+  "node_feat_dim": 256,
+  "pair_feat_dim": 64,
+  "knn": 15,
+  "cutoff": 15,
+  "num_embeddings": 256,
+  "loss_weight": 0.005,
+  "commitment_cost": 0.25,
+  "mask_ratio": 0.1,
+  "pre_iter": 2000,
+  "weight_decay": 0.0,
+  "seed": 2022,
+
+  "ca_only": false,
+  "hidden_dim": 128,
+  "num_layers": 3,
+  "backbone_noise": 0.0,
+  "num_edges": 48,
+
+  "loss_weight_boltzmann": 1.0,
+  "lr": 0.0001,
+  "batch_size": 2,
+  "val_freq": 5000,
+  "max_iter": 20000,
+  "ex_type": "train", 
+  "ex_name": "cv3_ba-ddg_train_20k_bs2",
+
+  "ckpt_path": "../ckpt/soluble_model_weights/v_48_020.pt"
+}
